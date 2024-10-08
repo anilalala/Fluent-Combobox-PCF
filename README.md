@@ -1,3 +1,6 @@
 # Fluent Combobox PCF
-# here will be detailed read-me on how to configure end-end combobox for integration with Canvas app
+
+### Details
+
+* Multiselect combobox based on fluent component and contains end-to-end configuration with property type Object and integration with Canvas app
  
