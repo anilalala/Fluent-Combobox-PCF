@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="custom" constructor="fluentComboboxPcfControl" version="0.0.1" display-name-key="fluentComboboxPcfControl" description-key="Combobox with dataset source" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="items" display-name-key="items_Disp" description-key="items_Desc" of-type="Object" usage="bound" required="true" />
+    <property name="selectedItems" display-name-key="items_Disp" description-key="items_Desc" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
