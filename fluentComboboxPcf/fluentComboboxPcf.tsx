@@ -2,28 +2,6 @@ import * as React from 'react';
 import { IComboBox, IComboBoxOption, IComboBoxStyles, VirtualizedComboBox } from '@fluentui/react';
 import { IfluentComboboxPcfProps } from './IfluentComboboxPcfProps';
 
-const customStyle: Partial<IComboBoxStyles> = { 
-  root: { 
-    maxWidth: 300, 
-    minWidth: 200, 
-    minHeight: 38, 
-    borderRadius: 5
-  }, 
-  rootPressed: {
-    borderColor: "FFFFFF" 
-  }, 
-  input: { 
-    minWidth: 200, 
-    minHeight: 38, 
-    borderRadius: 5
-  }, 
-  optionsContainerWrapper: { 
-    minWidth: 180 
-  },
-  optionsContainer: {
-    minWidth: 180
-  }
-}
 export const fluentComboboxPcf: React.FunctionComponent<IfluentComboboxPcfProps> = (props) => {
 
   const [selectedKeys, setSelectedKeys] = React.useState<string[]>([]);
@@ -53,7 +31,6 @@ export const fluentComboboxPcf: React.FunctionComponent<IfluentComboboxPcfProps>
       options={props.records || []}
       dropdownMaxWidth={200}
       useComboBoxAsMenuWidth
-      styles={customStyle}
       multiSelect
       onChange={onChange}
       selectedKey= {selectedKeys}

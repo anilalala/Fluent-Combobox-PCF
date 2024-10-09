@@ -54,7 +54,6 @@ export class fluentComboboxPcfControl implements ComponentFramework.StandardCont
 
         if (items && isJsonString(items)) {
             JSON.parse(items).forEach((item: { key: any; text: any; }) => {
-               console.log(`Key: ${item.key}, Value: ${item.text}`);
                _data.push({key: item.key, text: item.text});
             });
         } else {
