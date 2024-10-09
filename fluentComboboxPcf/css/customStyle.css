@@ -1,4 +1,4 @@
-.css-134 {
+.ms-ComboBox {
     font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
@@ -23,72 +23,7 @@
     user-select: none;
     border-radius: 5px;
 }
-.css-134::after {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    inset: 0px;
-    border-radius: 5px;
-    border: 1px solid #33344A;
-}
-.css-115 {
-    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 14px;
-    font-weight: 400;
-    box-shadow: none;
-    margin-left: 0px;
-    padding-right: 32px;
-    padding-left: 9px;
-    color: rgb(50, 49, 48);
-    position: relative;
-    outline: 0px;
-    background-color: rgb(255, 255, 255);
-    cursor: text;
-    display: block;
-    height: 38px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    box-sizing: border-box;
-    max-width: 300px;
-    min-height: 38px;
-    user-select: none;
-    border-radius: 5px;
-}
-.css-115::after {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    inset: 0px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #33344A;
-    border-radius: 5px;
-}
-.css-133 {
-    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 14px;
-    font-weight: 400;
-    box-shadow: none;
-    margin-left: 0px;
-    padding-right: 32px;
-    padding-left: 9px;
-    color: rgb(50, 49, 48);
-    position: relative;
-    outline: 0px;
-    background-color: rgb(255, 255, 255);
-    cursor: text;
-    display: block;
-    height: 38px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    box-sizing: border-box;
-    border-color: #33344A;
-    user-select: none;
-    border-radius: 5px;
-}
-.css-133::after {
+.ms-ComboBox::after {
     pointer-events: none;
     content: "";
     position: absolute;
