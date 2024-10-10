@@ -34,6 +34,7 @@ export const fluentComboboxPcf: React.FunctionComponent<IfluentComboboxPcfProps>
       multiSelect
       onChange={onChange}
       selectedKey= {selectedKeys}
+      placeholder='Select article'
     />
   );
 };

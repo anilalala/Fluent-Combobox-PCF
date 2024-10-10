@@ -18,16 +18,16 @@
     text-overflow: ellipsis;
     box-sizing: border-box;
     max-width: 300px;
-    min-height: 38px;
-    border-color: #33344A;
+    min-height: 38px !important;
+    border-color: #33344A !important;
     user-select: none;
-    border-radius: 5px;
+    border-radius: 5px !important;
 }
 .ms-ComboBox::after {
     pointer-events: none;
     content: "";
     position: absolute;
     inset: 0px;
-    border-radius: 5px;
-    border: 1px solid #33344A;
+    border-radius: 5px !important;
+    border: 1px solid #33344A !important;
 }
