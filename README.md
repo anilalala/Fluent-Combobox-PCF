@@ -6,3 +6,23 @@
 * For this specific case an array of objects can be added as an input:
 > { array: "[{ ""key"": key, ""text"": ""value"" }, { ""key"": key, ""text"": ""value"" }]" }
  
+ ## Component
+
+ * The component renders a VirtualizedComboBox: 
+```
+  return (
+    <VirtualizedComboBox
+      allowFreeform
+      autoComplete="on"
+      options={props.records || []}
+      dropdownMaxWidth={200}
+      useComboBoxAsMenuWidth
+      multiSelect
+      onChange={onChange}
+      selectedKey={selectedKeys}
+      placeholder='Select article'
+    />
+  );
+};
+```
+
